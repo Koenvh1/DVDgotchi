@@ -8,6 +8,12 @@ food and happiness. They decline randomly. If one of them
 reaches 0 your DVDgotchi dies. If you turn off your DVD
 player your DVDgotchi dies as well.
 
+
+
+https://github.com/user-attachments/assets/799f1856-d482-4919-90bb-a57e5273761f
+
+
+
 The DVDgotchi is Rover from Windows XP. Thank you, 
 Microsoft! I do miss him :-(
 
