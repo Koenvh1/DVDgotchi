@@ -1,0 +1,2697 @@
+
+      <pgc entry="title">
+        <vob>
+          <menu videoFormat="PAL" aspectRatio="1" rememberLastButton="-1">
+            <svg width="720" height="540">
+              <rect width="720" height="540" id="backgroundColour" style="fill:#000000;"/>
+              <defs id="defs">
+              </defs>
+              <g id="objects"/>
+              <g id="buttons">
+              </g>
+            </svg>
+          </menu>
+        </vob>
+        <pre>
+            g4=2;
+            g5=2;
+            jump vmgm menu 2;
+        </pre>
+      </pgc>
+      <pgc>
+        <vob>
+          <menu videoFormat="PAL" aspectRatio="1" rememberLastButton="-1">
+            <svg width="720" height="540">
+              <rect width="720" height="540" id="backgroundColour" style="fill:#000000;"/>
+              <defs id="defs">
+              </defs>
+              <g id="objects"/>
+              <g id="buttons">
+              </g>
+            </svg>
+          </menu>
+        </vob>
+        <pre>
+            if (g4 == 0) { jump title 1; } 
+            if (g5 == 0) { jump title 1; }
+            if (g4 > 3) { g4=3; }
+            if (g5 > 3) { g5=3; } 
+            g2=random(5); 
+            g3=((g2-1)*9)+((g4-1)*3)+(g5-1)+1; 
+                        if (g3==1) { jump vmgm menu 3; }
+            if (g3==2) { jump vmgm menu 4; }
+            if (g3==3) { jump vmgm menu 5; }
+            if (g3==4) { jump vmgm menu 6; }
+            if (g3==5) { jump vmgm menu 7; }
+            if (g3==6) { jump vmgm menu 8; }
+            if (g3==7) { jump vmgm menu 9; }
+            if (g3==8) { jump vmgm menu 10; }
+            if (g3==9) { jump vmgm menu 11; }
+            if (g3==10) { jump vmgm menu 12; }
+            if (g3==11) { jump vmgm menu 13; }
+            if (g3==12) { jump vmgm menu 14; }
+            if (g3==13) { jump vmgm menu 15; }
+            if (g3==14) { jump vmgm menu 16; }
+            if (g3==15) { jump vmgm menu 17; }
+            if (g3==16) { jump vmgm menu 18; }
+            if (g3==17) { jump vmgm menu 19; }
+            if (g3==18) { jump vmgm menu 20; }
+            if (g3==19) { jump vmgm menu 21; }
+            if (g3==20) { jump vmgm menu 22; }
+            if (g3==21) { jump vmgm menu 23; }
+            if (g3==22) { jump vmgm menu 24; }
+            if (g3==23) { jump vmgm menu 25; }
+            if (g3==24) { jump vmgm menu 26; }
+            if (g3==25) { jump vmgm menu 27; }
+            if (g3==26) { jump vmgm menu 28; }
+            if (g3==27) { jump vmgm menu 29; }
+            if (g3==28) { jump vmgm menu 30; }
+            if (g3==29) { jump vmgm menu 31; }
+            if (g3==30) { jump vmgm menu 32; }
+            if (g3==31) { jump vmgm menu 33; }
+            if (g3==32) { jump vmgm menu 34; }
+            if (g3==33) { jump vmgm menu 35; }
+            if (g3==34) { jump vmgm menu 36; }
+            if (g3==35) { jump vmgm menu 37; }
+            if (g3==36) { jump vmgm menu 38; }
+            if (g3==37) { jump vmgm menu 39; }
+            if (g3==38) { jump vmgm menu 40; }
+            if (g3==39) { jump vmgm menu 41; }
+            if (g3==40) { jump vmgm menu 42; }
+            if (g3==41) { jump vmgm menu 43; }
+            if (g3==42) { jump vmgm menu 44; }
+            if (g3==43) { jump vmgm menu 45; }
+            if (g3==44) { jump vmgm menu 46; }
+            if (g3==45) { jump vmgm menu 47; }
+        </pre>
+      </pgc>
+      <pgc>
+        <vob>
+          <menu videoFormat="PAL" aspectRatio="1" rememberLastButton="-1">
+            <svg width="720" height="540">
+              <rect width="720" height="540" id="backgroundColour" style="fill:#000000;"/>
+              <video width="720" height="540" preserveAspectRatio="none" id="background" xlink:href="Rover\videos\Books_f1_h1.mpg"/>
+              <defs id="defs">
+                <svg id="s_button01">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Feed</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+                <svg id="s_button02">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Pet</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+              </defs>
+              <g id="objects"/>
+              <g id="buttons">
+                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+              </g>
+            </svg>
+            <button id="button01" defSize="true">
+              <action>g4=g4+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+            <button id="button02" defSize="true">
+              <action>g5=g5+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+          </menu>
+        </vob>
+        <post>
+            g0=random(100); 
+            g1=random(100); 
+            if (g0 > 90) { g4=g4-1; } 
+            if (g1 > 90) { g5=g5-1; } 
+            jump vmgm menu 2;
+        </post>
+      </pgc>
+      <pgc>
+        <vob>
+          <menu videoFormat="PAL" aspectRatio="1" rememberLastButton="-1">
+            <svg width="720" height="540">
+              <rect width="720" height="540" id="backgroundColour" style="fill:#000000;"/>
+              <video width="720" height="540" preserveAspectRatio="none" id="background" xlink:href="Rover\videos\Books_f1_h2.mpg"/>
+              <defs id="defs">
+                <svg id="s_button01">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Feed</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+                <svg id="s_button02">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Pet</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+              </defs>
+              <g id="objects"/>
+              <g id="buttons">
+                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+              </g>
+            </svg>
+            <button id="button01" defSize="true">
+              <action>g4=g4+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+            <button id="button02" defSize="true">
+              <action>g5=g5+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+          </menu>
+        </vob>
+        <post>
+            g0=random(100); 
+            g1=random(100); 
+            if (g0 > 90) { g4=g4-1; } 
+            if (g1 > 90) { g5=g5-1; } 
+            jump vmgm menu 2;
+        </post>
+      </pgc>
+      <pgc>
+        <vob>
+          <menu videoFormat="PAL" aspectRatio="1" rememberLastButton="-1">
+            <svg width="720" height="540">
+              <rect width="720" height="540" id="backgroundColour" style="fill:#000000;"/>
+              <video width="720" height="540" preserveAspectRatio="none" id="background" xlink:href="Rover\videos\Books_f1_h3.mpg"/>
+              <defs id="defs">
+                <svg id="s_button01">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Feed</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+                <svg id="s_button02">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Pet</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+              </defs>
+              <g id="objects"/>
+              <g id="buttons">
+                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+              </g>
+            </svg>
+            <button id="button01" defSize="true">
+              <action>g4=g4+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+            <button id="button02" defSize="true">
+              <action>g5=g5+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+          </menu>
+        </vob>
+        <post>
+            g0=random(100); 
+            g1=random(100); 
+            if (g0 > 90) { g4=g4-1; } 
+            if (g1 > 90) { g5=g5-1; } 
+            jump vmgm menu 2;
+        </post>
+      </pgc>
+      <pgc>
+        <vob>
+          <menu videoFormat="PAL" aspectRatio="1" rememberLastButton="-1">
+            <svg width="720" height="540">
+              <rect width="720" height="540" id="backgroundColour" style="fill:#000000;"/>
+              <video width="720" height="540" preserveAspectRatio="none" id="background" xlink:href="Rover\videos\Books_f2_h1.mpg"/>
+              <defs id="defs">
+                <svg id="s_button01">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Feed</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+                <svg id="s_button02">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Pet</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+              </defs>
+              <g id="objects"/>
+              <g id="buttons">
+                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+              </g>
+            </svg>
+            <button id="button01" defSize="true">
+              <action>g4=g4+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+            <button id="button02" defSize="true">
+              <action>g5=g5+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+          </menu>
+        </vob>
+        <post>
+            g0=random(100); 
+            g1=random(100); 
+            if (g0 > 90) { g4=g4-1; } 
+            if (g1 > 90) { g5=g5-1; } 
+            jump vmgm menu 2;
+        </post>
+      </pgc>
+      <pgc>
+        <vob>
+          <menu videoFormat="PAL" aspectRatio="1" rememberLastButton="-1">
+            <svg width="720" height="540">
+              <rect width="720" height="540" id="backgroundColour" style="fill:#000000;"/>
+              <video width="720" height="540" preserveAspectRatio="none" id="background" xlink:href="Rover\videos\Books_f2_h2.mpg"/>
+              <defs id="defs">
+                <svg id="s_button01">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Feed</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+                <svg id="s_button02">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Pet</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+              </defs>
+              <g id="objects"/>
+              <g id="buttons">
+                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+              </g>
+            </svg>
+            <button id="button01" defSize="true">
+              <action>g4=g4+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+            <button id="button02" defSize="true">
+              <action>g5=g5+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+          </menu>
+        </vob>
+        <post>
+            g0=random(100); 
+            g1=random(100); 
+            if (g0 > 90) { g4=g4-1; } 
+            if (g1 > 90) { g5=g5-1; } 
+            jump vmgm menu 2;
+        </post>
+      </pgc>
+      <pgc>
+        <vob>
+          <menu videoFormat="PAL" aspectRatio="1" rememberLastButton="-1">
+            <svg width="720" height="540">
+              <rect width="720" height="540" id="backgroundColour" style="fill:#000000;"/>
+              <video width="720" height="540" preserveAspectRatio="none" id="background" xlink:href="Rover\videos\Books_f2_h3.mpg"/>
+              <defs id="defs">
+                <svg id="s_button01">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Feed</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+                <svg id="s_button02">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Pet</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+              </defs>
+              <g id="objects"/>
+              <g id="buttons">
+                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+              </g>
+            </svg>
+            <button id="button01" defSize="true">
+              <action>g4=g4+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+            <button id="button02" defSize="true">
+              <action>g5=g5+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+          </menu>
+        </vob>
+        <post>
+            g0=random(100); 
+            g1=random(100); 
+            if (g0 > 90) { g4=g4-1; } 
+            if (g1 > 90) { g5=g5-1; } 
+            jump vmgm menu 2;
+        </post>
+      </pgc>
+      <pgc>
+        <vob>
+          <menu videoFormat="PAL" aspectRatio="1" rememberLastButton="-1">
+            <svg width="720" height="540">
+              <rect width="720" height="540" id="backgroundColour" style="fill:#000000;"/>
+              <video width="720" height="540" preserveAspectRatio="none" id="background" xlink:href="Rover\videos\Books_f3_h1.mpg"/>
+              <defs id="defs">
+                <svg id="s_button01">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Feed</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+                <svg id="s_button02">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Pet</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+              </defs>
+              <g id="objects"/>
+              <g id="buttons">
+                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+              </g>
+            </svg>
+            <button id="button01" defSize="true">
+              <action>g4=g4+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+            <button id="button02" defSize="true">
+              <action>g5=g5+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+          </menu>
+        </vob>
+        <post>
+            g0=random(100); 
+            g1=random(100); 
+            if (g0 > 90) { g4=g4-1; } 
+            if (g1 > 90) { g5=g5-1; } 
+            jump vmgm menu 2;
+        </post>
+      </pgc>
+      <pgc>
+        <vob>
+          <menu videoFormat="PAL" aspectRatio="1" rememberLastButton="-1">
+            <svg width="720" height="540">
+              <rect width="720" height="540" id="backgroundColour" style="fill:#000000;"/>
+              <video width="720" height="540" preserveAspectRatio="none" id="background" xlink:href="Rover\videos\Books_f3_h2.mpg"/>
+              <defs id="defs">
+                <svg id="s_button01">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Feed</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+                <svg id="s_button02">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Pet</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+              </defs>
+              <g id="objects"/>
+              <g id="buttons">
+                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+              </g>
+            </svg>
+            <button id="button01" defSize="true">
+              <action>g4=g4+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+            <button id="button02" defSize="true">
+              <action>g5=g5+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+          </menu>
+        </vob>
+        <post>
+            g0=random(100); 
+            g1=random(100); 
+            if (g0 > 90) { g4=g4-1; } 
+            if (g1 > 90) { g5=g5-1; } 
+            jump vmgm menu 2;
+        </post>
+      </pgc>
+      <pgc>
+        <vob>
+          <menu videoFormat="PAL" aspectRatio="1" rememberLastButton="-1">
+            <svg width="720" height="540">
+              <rect width="720" height="540" id="backgroundColour" style="fill:#000000;"/>
+              <video width="720" height="540" preserveAspectRatio="none" id="background" xlink:href="Rover\videos\Books_f3_h3.mpg"/>
+              <defs id="defs">
+                <svg id="s_button01">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Feed</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+                <svg id="s_button02">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Pet</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+              </defs>
+              <g id="objects"/>
+              <g id="buttons">
+                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+              </g>
+            </svg>
+            <button id="button01" defSize="true">
+              <action>g4=g4+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+            <button id="button02" defSize="true">
+              <action>g5=g5+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+          </menu>
+        </vob>
+        <post>
+            g0=random(100); 
+            g1=random(100); 
+            if (g0 > 90) { g4=g4-1; } 
+            if (g1 > 90) { g5=g5-1; } 
+            jump vmgm menu 2;
+        </post>
+      </pgc>
+      <pgc>
+        <vob>
+          <menu videoFormat="PAL" aspectRatio="1" rememberLastButton="-1">
+            <svg width="720" height="540">
+              <rect width="720" height="540" id="backgroundColour" style="fill:#000000;"/>
+              <video width="720" height="540" preserveAspectRatio="none" id="background" xlink:href="Rover\videos\Celebrity_f1_h1.mpg"/>
+              <defs id="defs">
+                <svg id="s_button01">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Feed</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+                <svg id="s_button02">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Pet</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+              </defs>
+              <g id="objects"/>
+              <g id="buttons">
+                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+              </g>
+            </svg>
+            <button id="button01" defSize="true">
+              <action>g4=g4+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+            <button id="button02" defSize="true">
+              <action>g5=g5+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+          </menu>
+        </vob>
+        <post>
+            g0=random(100); 
+            g1=random(100); 
+            if (g0 > 90) { g4=g4-1; } 
+            if (g1 > 90) { g5=g5-1; } 
+            jump vmgm menu 2;
+        </post>
+      </pgc>
+      <pgc>
+        <vob>
+          <menu videoFormat="PAL" aspectRatio="1" rememberLastButton="-1">
+            <svg width="720" height="540">
+              <rect width="720" height="540" id="backgroundColour" style="fill:#000000;"/>
+              <video width="720" height="540" preserveAspectRatio="none" id="background" xlink:href="Rover\videos\Celebrity_f1_h2.mpg"/>
+              <defs id="defs">
+                <svg id="s_button01">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Feed</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+                <svg id="s_button02">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Pet</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+              </defs>
+              <g id="objects"/>
+              <g id="buttons">
+                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+              </g>
+            </svg>
+            <button id="button01" defSize="true">
+              <action>g4=g4+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+            <button id="button02" defSize="true">
+              <action>g5=g5+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+          </menu>
+        </vob>
+        <post>
+            g0=random(100); 
+            g1=random(100); 
+            if (g0 > 90) { g4=g4-1; } 
+            if (g1 > 90) { g5=g5-1; } 
+            jump vmgm menu 2;
+        </post>
+      </pgc>
+      <pgc>
+        <vob>
+          <menu videoFormat="PAL" aspectRatio="1" rememberLastButton="-1">
+            <svg width="720" height="540">
+              <rect width="720" height="540" id="backgroundColour" style="fill:#000000;"/>
+              <video width="720" height="540" preserveAspectRatio="none" id="background" xlink:href="Rover\videos\Celebrity_f1_h3.mpg"/>
+              <defs id="defs">
+                <svg id="s_button01">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Feed</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+                <svg id="s_button02">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Pet</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+              </defs>
+              <g id="objects"/>
+              <g id="buttons">
+                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+              </g>
+            </svg>
+            <button id="button01" defSize="true">
+              <action>g4=g4+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+            <button id="button02" defSize="true">
+              <action>g5=g5+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+          </menu>
+        </vob>
+        <post>
+            g0=random(100); 
+            g1=random(100); 
+            if (g0 > 90) { g4=g4-1; } 
+            if (g1 > 90) { g5=g5-1; } 
+            jump vmgm menu 2;
+        </post>
+      </pgc>
+      <pgc>
+        <vob>
+          <menu videoFormat="PAL" aspectRatio="1" rememberLastButton="-1">
+            <svg width="720" height="540">
+              <rect width="720" height="540" id="backgroundColour" style="fill:#000000;"/>
+              <video width="720" height="540" preserveAspectRatio="none" id="background" xlink:href="Rover\videos\Celebrity_f2_h1.mpg"/>
+              <defs id="defs">
+                <svg id="s_button01">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Feed</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+                <svg id="s_button02">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Pet</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+              </defs>
+              <g id="objects"/>
+              <g id="buttons">
+                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+              </g>
+            </svg>
+            <button id="button01" defSize="true">
+              <action>g4=g4+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+            <button id="button02" defSize="true">
+              <action>g5=g5+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+          </menu>
+        </vob>
+        <post>
+            g0=random(100); 
+            g1=random(100); 
+            if (g0 > 90) { g4=g4-1; } 
+            if (g1 > 90) { g5=g5-1; } 
+            jump vmgm menu 2;
+        </post>
+      </pgc>
+      <pgc>
+        <vob>
+          <menu videoFormat="PAL" aspectRatio="1" rememberLastButton="-1">
+            <svg width="720" height="540">
+              <rect width="720" height="540" id="backgroundColour" style="fill:#000000;"/>
+              <video width="720" height="540" preserveAspectRatio="none" id="background" xlink:href="Rover\videos\Celebrity_f2_h2.mpg"/>
+              <defs id="defs">
+                <svg id="s_button01">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Feed</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+                <svg id="s_button02">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Pet</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+              </defs>
+              <g id="objects"/>
+              <g id="buttons">
+                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+              </g>
+            </svg>
+            <button id="button01" defSize="true">
+              <action>g4=g4+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+            <button id="button02" defSize="true">
+              <action>g5=g5+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+          </menu>
+        </vob>
+        <post>
+            g0=random(100); 
+            g1=random(100); 
+            if (g0 > 90) { g4=g4-1; } 
+            if (g1 > 90) { g5=g5-1; } 
+            jump vmgm menu 2;
+        </post>
+      </pgc>
+      <pgc>
+        <vob>
+          <menu videoFormat="PAL" aspectRatio="1" rememberLastButton="-1">
+            <svg width="720" height="540">
+              <rect width="720" height="540" id="backgroundColour" style="fill:#000000;"/>
+              <video width="720" height="540" preserveAspectRatio="none" id="background" xlink:href="Rover\videos\Celebrity_f2_h3.mpg"/>
+              <defs id="defs">
+                <svg id="s_button01">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Feed</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+                <svg id="s_button02">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Pet</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+              </defs>
+              <g id="objects"/>
+              <g id="buttons">
+                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+              </g>
+            </svg>
+            <button id="button01" defSize="true">
+              <action>g4=g4+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+            <button id="button02" defSize="true">
+              <action>g5=g5+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+          </menu>
+        </vob>
+        <post>
+            g0=random(100); 
+            g1=random(100); 
+            if (g0 > 90) { g4=g4-1; } 
+            if (g1 > 90) { g5=g5-1; } 
+            jump vmgm menu 2;
+        </post>
+      </pgc>
+      <pgc>
+        <vob>
+          <menu videoFormat="PAL" aspectRatio="1" rememberLastButton="-1">
+            <svg width="720" height="540">
+              <rect width="720" height="540" id="backgroundColour" style="fill:#000000;"/>
+              <video width="720" height="540" preserveAspectRatio="none" id="background" xlink:href="Rover\videos\Celebrity_f3_h1.mpg"/>
+              <defs id="defs">
+                <svg id="s_button01">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Feed</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+                <svg id="s_button02">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Pet</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+              </defs>
+              <g id="objects"/>
+              <g id="buttons">
+                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+              </g>
+            </svg>
+            <button id="button01" defSize="true">
+              <action>g4=g4+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+            <button id="button02" defSize="true">
+              <action>g5=g5+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+          </menu>
+        </vob>
+        <post>
+            g0=random(100); 
+            g1=random(100); 
+            if (g0 > 90) { g4=g4-1; } 
+            if (g1 > 90) { g5=g5-1; } 
+            jump vmgm menu 2;
+        </post>
+      </pgc>
+      <pgc>
+        <vob>
+          <menu videoFormat="PAL" aspectRatio="1" rememberLastButton="-1">
+            <svg width="720" height="540">
+              <rect width="720" height="540" id="backgroundColour" style="fill:#000000;"/>
+              <video width="720" height="540" preserveAspectRatio="none" id="background" xlink:href="Rover\videos\Celebrity_f3_h2.mpg"/>
+              <defs id="defs">
+                <svg id="s_button01">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Feed</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+                <svg id="s_button02">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Pet</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+              </defs>
+              <g id="objects"/>
+              <g id="buttons">
+                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+              </g>
+            </svg>
+            <button id="button01" defSize="true">
+              <action>g4=g4+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+            <button id="button02" defSize="true">
+              <action>g5=g5+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+          </menu>
+        </vob>
+        <post>
+            g0=random(100); 
+            g1=random(100); 
+            if (g0 > 90) { g4=g4-1; } 
+            if (g1 > 90) { g5=g5-1; } 
+            jump vmgm menu 2;
+        </post>
+      </pgc>
+      <pgc>
+        <vob>
+          <menu videoFormat="PAL" aspectRatio="1" rememberLastButton="-1">
+            <svg width="720" height="540">
+              <rect width="720" height="540" id="backgroundColour" style="fill:#000000;"/>
+              <video width="720" height="540" preserveAspectRatio="none" id="background" xlink:href="Rover\videos\Celebrity_f3_h3.mpg"/>
+              <defs id="defs">
+                <svg id="s_button01">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Feed</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+                <svg id="s_button02">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Pet</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+              </defs>
+              <g id="objects"/>
+              <g id="buttons">
+                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+              </g>
+            </svg>
+            <button id="button01" defSize="true">
+              <action>g4=g4+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+            <button id="button02" defSize="true">
+              <action>g5=g5+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+          </menu>
+        </vob>
+        <post>
+            g0=random(100); 
+            g1=random(100); 
+            if (g0 > 90) { g4=g4-1; } 
+            if (g1 > 90) { g5=g5-1; } 
+            jump vmgm menu 2;
+        </post>
+      </pgc>
+      <pgc>
+        <vob>
+          <menu videoFormat="PAL" aspectRatio="1" rememberLastButton="-1">
+            <svg width="720" height="540">
+              <rect width="720" height="540" id="backgroundColour" style="fill:#000000;"/>
+              <video width="720" height="540" preserveAspectRatio="none" id="background" xlink:href="Rover\videos\Cooking_f1_h1.mpg"/>
+              <defs id="defs">
+                <svg id="s_button01">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Feed</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+                <svg id="s_button02">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Pet</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+              </defs>
+              <g id="objects"/>
+              <g id="buttons">
+                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+              </g>
+            </svg>
+            <button id="button01" defSize="true">
+              <action>g4=g4+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+            <button id="button02" defSize="true">
+              <action>g5=g5+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+          </menu>
+        </vob>
+        <post>
+            g0=random(100); 
+            g1=random(100); 
+            if (g0 > 90) { g4=g4-1; } 
+            if (g1 > 90) { g5=g5-1; } 
+            jump vmgm menu 2;
+        </post>
+      </pgc>
+      <pgc>
+        <vob>
+          <menu videoFormat="PAL" aspectRatio="1" rememberLastButton="-1">
+            <svg width="720" height="540">
+              <rect width="720" height="540" id="backgroundColour" style="fill:#000000;"/>
+              <video width="720" height="540" preserveAspectRatio="none" id="background" xlink:href="Rover\videos\Cooking_f1_h2.mpg"/>
+              <defs id="defs">
+                <svg id="s_button01">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Feed</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+                <svg id="s_button02">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Pet</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+              </defs>
+              <g id="objects"/>
+              <g id="buttons">
+                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+              </g>
+            </svg>
+            <button id="button01" defSize="true">
+              <action>g4=g4+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+            <button id="button02" defSize="true">
+              <action>g5=g5+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+          </menu>
+        </vob>
+        <post>
+            g0=random(100); 
+            g1=random(100); 
+            if (g0 > 90) { g4=g4-1; } 
+            if (g1 > 90) { g5=g5-1; } 
+            jump vmgm menu 2;
+        </post>
+      </pgc>
+      <pgc>
+        <vob>
+          <menu videoFormat="PAL" aspectRatio="1" rememberLastButton="-1">
+            <svg width="720" height="540">
+              <rect width="720" height="540" id="backgroundColour" style="fill:#000000;"/>
+              <video width="720" height="540" preserveAspectRatio="none" id="background" xlink:href="Rover\videos\Cooking_f1_h3.mpg"/>
+              <defs id="defs">
+                <svg id="s_button01">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Feed</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+                <svg id="s_button02">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Pet</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+              </defs>
+              <g id="objects"/>
+              <g id="buttons">
+                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+              </g>
+            </svg>
+            <button id="button01" defSize="true">
+              <action>g4=g4+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+            <button id="button02" defSize="true">
+              <action>g5=g5+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+          </menu>
+        </vob>
+        <post>
+            g0=random(100); 
+            g1=random(100); 
+            if (g0 > 90) { g4=g4-1; } 
+            if (g1 > 90) { g5=g5-1; } 
+            jump vmgm menu 2;
+        </post>
+      </pgc>
+      <pgc>
+        <vob>
+          <menu videoFormat="PAL" aspectRatio="1" rememberLastButton="-1">
+            <svg width="720" height="540">
+              <rect width="720" height="540" id="backgroundColour" style="fill:#000000;"/>
+              <video width="720" height="540" preserveAspectRatio="none" id="background" xlink:href="Rover\videos\Cooking_f2_h1.mpg"/>
+              <defs id="defs">
+                <svg id="s_button01">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Feed</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+                <svg id="s_button02">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Pet</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+              </defs>
+              <g id="objects"/>
+              <g id="buttons">
+                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+              </g>
+            </svg>
+            <button id="button01" defSize="true">
+              <action>g4=g4+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+            <button id="button02" defSize="true">
+              <action>g5=g5+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+          </menu>
+        </vob>
+        <post>
+            g0=random(100); 
+            g1=random(100); 
+            if (g0 > 90) { g4=g4-1; } 
+            if (g1 > 90) { g5=g5-1; } 
+            jump vmgm menu 2;
+        </post>
+      </pgc>
+      <pgc>
+        <vob>
+          <menu videoFormat="PAL" aspectRatio="1" rememberLastButton="-1">
+            <svg width="720" height="540">
+              <rect width="720" height="540" id="backgroundColour" style="fill:#000000;"/>
+              <video width="720" height="540" preserveAspectRatio="none" id="background" xlink:href="Rover\videos\Cooking_f2_h2.mpg"/>
+              <defs id="defs">
+                <svg id="s_button01">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Feed</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+                <svg id="s_button02">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Pet</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+              </defs>
+              <g id="objects"/>
+              <g id="buttons">
+                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+              </g>
+            </svg>
+            <button id="button01" defSize="true">
+              <action>g4=g4+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+            <button id="button02" defSize="true">
+              <action>g5=g5+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+          </menu>
+        </vob>
+        <post>
+            g0=random(100); 
+            g1=random(100); 
+            if (g0 > 90) { g4=g4-1; } 
+            if (g1 > 90) { g5=g5-1; } 
+            jump vmgm menu 2;
+        </post>
+      </pgc>
+      <pgc>
+        <vob>
+          <menu videoFormat="PAL" aspectRatio="1" rememberLastButton="-1">
+            <svg width="720" height="540">
+              <rect width="720" height="540" id="backgroundColour" style="fill:#000000;"/>
+              <video width="720" height="540" preserveAspectRatio="none" id="background" xlink:href="Rover\videos\Cooking_f2_h3.mpg"/>
+              <defs id="defs">
+                <svg id="s_button01">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Feed</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+                <svg id="s_button02">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Pet</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+              </defs>
+              <g id="objects"/>
+              <g id="buttons">
+                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+              </g>
+            </svg>
+            <button id="button01" defSize="true">
+              <action>g4=g4+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+            <button id="button02" defSize="true">
+              <action>g5=g5+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+          </menu>
+        </vob>
+        <post>
+            g0=random(100); 
+            g1=random(100); 
+            if (g0 > 90) { g4=g4-1; } 
+            if (g1 > 90) { g5=g5-1; } 
+            jump vmgm menu 2;
+        </post>
+      </pgc>
+      <pgc>
+        <vob>
+          <menu videoFormat="PAL" aspectRatio="1" rememberLastButton="-1">
+            <svg width="720" height="540">
+              <rect width="720" height="540" id="backgroundColour" style="fill:#000000;"/>
+              <video width="720" height="540" preserveAspectRatio="none" id="background" xlink:href="Rover\videos\Cooking_f3_h1.mpg"/>
+              <defs id="defs">
+                <svg id="s_button01">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Feed</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+                <svg id="s_button02">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Pet</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+              </defs>
+              <g id="objects"/>
+              <g id="buttons">
+                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+              </g>
+            </svg>
+            <button id="button01" defSize="true">
+              <action>g4=g4+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+            <button id="button02" defSize="true">
+              <action>g5=g5+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+          </menu>
+        </vob>
+        <post>
+            g0=random(100); 
+            g1=random(100); 
+            if (g0 > 90) { g4=g4-1; } 
+            if (g1 > 90) { g5=g5-1; } 
+            jump vmgm menu 2;
+        </post>
+      </pgc>
+      <pgc>
+        <vob>
+          <menu videoFormat="PAL" aspectRatio="1" rememberLastButton="-1">
+            <svg width="720" height="540">
+              <rect width="720" height="540" id="backgroundColour" style="fill:#000000;"/>
+              <video width="720" height="540" preserveAspectRatio="none" id="background" xlink:href="Rover\videos\Cooking_f3_h2.mpg"/>
+              <defs id="defs">
+                <svg id="s_button01">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Feed</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+                <svg id="s_button02">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Pet</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+              </defs>
+              <g id="objects"/>
+              <g id="buttons">
+                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+              </g>
+            </svg>
+            <button id="button01" defSize="true">
+              <action>g4=g4+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+            <button id="button02" defSize="true">
+              <action>g5=g5+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+          </menu>
+        </vob>
+        <post>
+            g0=random(100); 
+            g1=random(100); 
+            if (g0 > 90) { g4=g4-1; } 
+            if (g1 > 90) { g5=g5-1; } 
+            jump vmgm menu 2;
+        </post>
+      </pgc>
+      <pgc>
+        <vob>
+          <menu videoFormat="PAL" aspectRatio="1" rememberLastButton="-1">
+            <svg width="720" height="540">
+              <rect width="720" height="540" id="backgroundColour" style="fill:#000000;"/>
+              <video width="720" height="540" preserveAspectRatio="none" id="background" xlink:href="Rover\videos\Cooking_f3_h3.mpg"/>
+              <defs id="defs">
+                <svg id="s_button01">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Feed</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+                <svg id="s_button02">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Pet</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+              </defs>
+              <g id="objects"/>
+              <g id="buttons">
+                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+              </g>
+            </svg>
+            <button id="button01" defSize="true">
+              <action>g4=g4+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+            <button id="button02" defSize="true">
+              <action>g5=g5+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+          </menu>
+        </vob>
+        <post>
+            g0=random(100); 
+            g1=random(100); 
+            if (g0 > 90) { g4=g4-1; } 
+            if (g1 > 90) { g5=g5-1; } 
+            jump vmgm menu 2;
+        </post>
+      </pgc>
+      <pgc>
+        <vob>
+          <menu videoFormat="PAL" aspectRatio="1" rememberLastButton="-1">
+            <svg width="720" height="540">
+              <rect width="720" height="540" id="backgroundColour" style="fill:#000000;"/>
+              <video width="720" height="540" preserveAspectRatio="none" id="background" xlink:href="Rover\videos\Searching_f1_h1.mpg"/>
+              <defs id="defs">
+                <svg id="s_button01">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Feed</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+                <svg id="s_button02">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Pet</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+              </defs>
+              <g id="objects"/>
+              <g id="buttons">
+                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+              </g>
+            </svg>
+            <button id="button01" defSize="true">
+              <action>g4=g4+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+            <button id="button02" defSize="true">
+              <action>g5=g5+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+          </menu>
+        </vob>
+        <post>
+            g0=random(100); 
+            g1=random(100); 
+            if (g0 > 90) { g4=g4-1; } 
+            if (g1 > 90) { g5=g5-1; } 
+            jump vmgm menu 2;
+        </post>
+      </pgc>
+      <pgc>
+        <vob>
+          <menu videoFormat="PAL" aspectRatio="1" rememberLastButton="-1">
+            <svg width="720" height="540">
+              <rect width="720" height="540" id="backgroundColour" style="fill:#000000;"/>
+              <video width="720" height="540" preserveAspectRatio="none" id="background" xlink:href="Rover\videos\Searching_f1_h2.mpg"/>
+              <defs id="defs">
+                <svg id="s_button01">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Feed</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+                <svg id="s_button02">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Pet</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+              </defs>
+              <g id="objects"/>
+              <g id="buttons">
+                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+              </g>
+            </svg>
+            <button id="button01" defSize="true">
+              <action>g4=g4+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+            <button id="button02" defSize="true">
+              <action>g5=g5+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+          </menu>
+        </vob>
+        <post>
+            g0=random(100); 
+            g1=random(100); 
+            if (g0 > 90) { g4=g4-1; } 
+            if (g1 > 90) { g5=g5-1; } 
+            jump vmgm menu 2;
+        </post>
+      </pgc>
+      <pgc>
+        <vob>
+          <menu videoFormat="PAL" aspectRatio="1" rememberLastButton="-1">
+            <svg width="720" height="540">
+              <rect width="720" height="540" id="backgroundColour" style="fill:#000000;"/>
+              <video width="720" height="540" preserveAspectRatio="none" id="background" xlink:href="Rover\videos\Searching_f1_h3.mpg"/>
+              <defs id="defs">
+                <svg id="s_button01">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Feed</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+                <svg id="s_button02">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Pet</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+              </defs>
+              <g id="objects"/>
+              <g id="buttons">
+                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+              </g>
+            </svg>
+            <button id="button01" defSize="true">
+              <action>g4=g4+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+            <button id="button02" defSize="true">
+              <action>g5=g5+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+          </menu>
+        </vob>
+        <post>
+            g0=random(100); 
+            g1=random(100); 
+            if (g0 > 90) { g4=g4-1; } 
+            if (g1 > 90) { g5=g5-1; } 
+            jump vmgm menu 2;
+        </post>
+      </pgc>
+      <pgc>
+        <vob>
+          <menu videoFormat="PAL" aspectRatio="1" rememberLastButton="-1">
+            <svg width="720" height="540">
+              <rect width="720" height="540" id="backgroundColour" style="fill:#000000;"/>
+              <video width="720" height="540" preserveAspectRatio="none" id="background" xlink:href="Rover\videos\Searching_f2_h1.mpg"/>
+              <defs id="defs">
+                <svg id="s_button01">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Feed</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+                <svg id="s_button02">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Pet</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+              </defs>
+              <g id="objects"/>
+              <g id="buttons">
+                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+              </g>
+            </svg>
+            <button id="button01" defSize="true">
+              <action>g4=g4+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+            <button id="button02" defSize="true">
+              <action>g5=g5+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+          </menu>
+        </vob>
+        <post>
+            g0=random(100); 
+            g1=random(100); 
+            if (g0 > 90) { g4=g4-1; } 
+            if (g1 > 90) { g5=g5-1; } 
+            jump vmgm menu 2;
+        </post>
+      </pgc>
+      <pgc>
+        <vob>
+          <menu videoFormat="PAL" aspectRatio="1" rememberLastButton="-1">
+            <svg width="720" height="540">
+              <rect width="720" height="540" id="backgroundColour" style="fill:#000000;"/>
+              <video width="720" height="540" preserveAspectRatio="none" id="background" xlink:href="Rover\videos\Searching_f2_h2.mpg"/>
+              <defs id="defs">
+                <svg id="s_button01">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Feed</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+                <svg id="s_button02">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Pet</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+              </defs>
+              <g id="objects"/>
+              <g id="buttons">
+                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+              </g>
+            </svg>
+            <button id="button01" defSize="true">
+              <action>g4=g4+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+            <button id="button02" defSize="true">
+              <action>g5=g5+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+          </menu>
+        </vob>
+        <post>
+            g0=random(100); 
+            g1=random(100); 
+            if (g0 > 90) { g4=g4-1; } 
+            if (g1 > 90) { g5=g5-1; } 
+            jump vmgm menu 2;
+        </post>
+      </pgc>
+      <pgc>
+        <vob>
+          <menu videoFormat="PAL" aspectRatio="1" rememberLastButton="-1">
+            <svg width="720" height="540">
+              <rect width="720" height="540" id="backgroundColour" style="fill:#000000;"/>
+              <video width="720" height="540" preserveAspectRatio="none" id="background" xlink:href="Rover\videos\Searching_f2_h3.mpg"/>
+              <defs id="defs">
+                <svg id="s_button01">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Feed</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+                <svg id="s_button02">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Pet</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+              </defs>
+              <g id="objects"/>
+              <g id="buttons">
+                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+              </g>
+            </svg>
+            <button id="button01" defSize="true">
+              <action>g4=g4+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+            <button id="button02" defSize="true">
+              <action>g5=g5+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+          </menu>
+        </vob>
+        <post>
+            g0=random(100); 
+            g1=random(100); 
+            if (g0 > 90) { g4=g4-1; } 
+            if (g1 > 90) { g5=g5-1; } 
+            jump vmgm menu 2;
+        </post>
+      </pgc>
+      <pgc>
+        <vob>
+          <menu videoFormat="PAL" aspectRatio="1" rememberLastButton="-1">
+            <svg width="720" height="540">
+              <rect width="720" height="540" id="backgroundColour" style="fill:#000000;"/>
+              <video width="720" height="540" preserveAspectRatio="none" id="background" xlink:href="Rover\videos\Searching_f3_h1.mpg"/>
+              <defs id="defs">
+                <svg id="s_button01">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Feed</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+                <svg id="s_button02">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Pet</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+              </defs>
+              <g id="objects"/>
+              <g id="buttons">
+                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+              </g>
+            </svg>
+            <button id="button01" defSize="true">
+              <action>g4=g4+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+            <button id="button02" defSize="true">
+              <action>g5=g5+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+          </menu>
+        </vob>
+        <post>
+            g0=random(100); 
+            g1=random(100); 
+            if (g0 > 90) { g4=g4-1; } 
+            if (g1 > 90) { g5=g5-1; } 
+            jump vmgm menu 2;
+        </post>
+      </pgc>
+      <pgc>
+        <vob>
+          <menu videoFormat="PAL" aspectRatio="1" rememberLastButton="-1">
+            <svg width="720" height="540">
+              <rect width="720" height="540" id="backgroundColour" style="fill:#000000;"/>
+              <video width="720" height="540" preserveAspectRatio="none" id="background" xlink:href="Rover\videos\Searching_f3_h2.mpg"/>
+              <defs id="defs">
+                <svg id="s_button01">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Feed</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+                <svg id="s_button02">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Pet</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+              </defs>
+              <g id="objects"/>
+              <g id="buttons">
+                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+              </g>
+            </svg>
+            <button id="button01" defSize="true">
+              <action>g4=g4+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+            <button id="button02" defSize="true">
+              <action>g5=g5+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+          </menu>
+        </vob>
+        <post>
+            g0=random(100); 
+            g1=random(100); 
+            if (g0 > 90) { g4=g4-1; } 
+            if (g1 > 90) { g5=g5-1; } 
+            jump vmgm menu 2;
+        </post>
+      </pgc>
+      <pgc>
+        <vob>
+          <menu videoFormat="PAL" aspectRatio="1" rememberLastButton="-1">
+            <svg width="720" height="540">
+              <rect width="720" height="540" id="backgroundColour" style="fill:#000000;"/>
+              <video width="720" height="540" preserveAspectRatio="none" id="background" xlink:href="Rover\videos\Searching_f3_h3.mpg"/>
+              <defs id="defs">
+                <svg id="s_button01">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Feed</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+                <svg id="s_button02">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Pet</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+              </defs>
+              <g id="objects"/>
+              <g id="buttons">
+                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+              </g>
+            </svg>
+            <button id="button01" defSize="true">
+              <action>g4=g4+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+            <button id="button02" defSize="true">
+              <action>g5=g5+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+          </menu>
+        </vob>
+        <post>
+            g0=random(100); 
+            g1=random(100); 
+            if (g0 > 90) { g4=g4-1; } 
+            if (g1 > 90) { g5=g5-1; } 
+            jump vmgm menu 2;
+        </post>
+      </pgc>
+      <pgc>
+        <vob>
+          <menu videoFormat="PAL" aspectRatio="1" rememberLastButton="-1">
+            <svg width="720" height="540">
+              <rect width="720" height="540" id="backgroundColour" style="fill:#000000;"/>
+              <video width="720" height="540" preserveAspectRatio="none" id="background" xlink:href="Rover\videos\Sports_f1_h1.mpg"/>
+              <defs id="defs">
+                <svg id="s_button01">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Feed</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+                <svg id="s_button02">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Pet</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+              </defs>
+              <g id="objects"/>
+              <g id="buttons">
+                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+              </g>
+            </svg>
+            <button id="button01" defSize="true">
+              <action>g4=g4+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+            <button id="button02" defSize="true">
+              <action>g5=g5+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+          </menu>
+        </vob>
+        <post>
+            g0=random(100); 
+            g1=random(100); 
+            if (g0 > 90) { g4=g4-1; } 
+            if (g1 > 90) { g5=g5-1; } 
+            jump vmgm menu 2;
+        </post>
+      </pgc>
+      <pgc>
+        <vob>
+          <menu videoFormat="PAL" aspectRatio="1" rememberLastButton="-1">
+            <svg width="720" height="540">
+              <rect width="720" height="540" id="backgroundColour" style="fill:#000000;"/>
+              <video width="720" height="540" preserveAspectRatio="none" id="background" xlink:href="Rover\videos\Sports_f1_h2.mpg"/>
+              <defs id="defs">
+                <svg id="s_button01">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Feed</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+                <svg id="s_button02">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Pet</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+              </defs>
+              <g id="objects"/>
+              <g id="buttons">
+                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+              </g>
+            </svg>
+            <button id="button01" defSize="true">
+              <action>g4=g4+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+            <button id="button02" defSize="true">
+              <action>g5=g5+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+          </menu>
+        </vob>
+        <post>
+            g0=random(100); 
+            g1=random(100); 
+            if (g0 > 90) { g4=g4-1; } 
+            if (g1 > 90) { g5=g5-1; } 
+            jump vmgm menu 2;
+        </post>
+      </pgc>
+      <pgc>
+        <vob>
+          <menu videoFormat="PAL" aspectRatio="1" rememberLastButton="-1">
+            <svg width="720" height="540">
+              <rect width="720" height="540" id="backgroundColour" style="fill:#000000;"/>
+              <video width="720" height="540" preserveAspectRatio="none" id="background" xlink:href="Rover\videos\Sports_f1_h3.mpg"/>
+              <defs id="defs">
+                <svg id="s_button01">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Feed</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+                <svg id="s_button02">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Pet</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+              </defs>
+              <g id="objects"/>
+              <g id="buttons">
+                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+              </g>
+            </svg>
+            <button id="button01" defSize="true">
+              <action>g4=g4+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+            <button id="button02" defSize="true">
+              <action>g5=g5+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+          </menu>
+        </vob>
+        <post>
+            g0=random(100); 
+            g1=random(100); 
+            if (g0 > 90) { g4=g4-1; } 
+            if (g1 > 90) { g5=g5-1; } 
+            jump vmgm menu 2;
+        </post>
+      </pgc>
+      <pgc>
+        <vob>
+          <menu videoFormat="PAL" aspectRatio="1" rememberLastButton="-1">
+            <svg width="720" height="540">
+              <rect width="720" height="540" id="backgroundColour" style="fill:#000000;"/>
+              <video width="720" height="540" preserveAspectRatio="none" id="background" xlink:href="Rover\videos\Sports_f2_h1.mpg"/>
+              <defs id="defs">
+                <svg id="s_button01">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Feed</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+                <svg id="s_button02">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Pet</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+              </defs>
+              <g id="objects"/>
+              <g id="buttons">
+                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+              </g>
+            </svg>
+            <button id="button01" defSize="true">
+              <action>g4=g4+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+            <button id="button02" defSize="true">
+              <action>g5=g5+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+          </menu>
+        </vob>
+        <post>
+            g0=random(100); 
+            g1=random(100); 
+            if (g0 > 90) { g4=g4-1; } 
+            if (g1 > 90) { g5=g5-1; } 
+            jump vmgm menu 2;
+        </post>
+      </pgc>
+      <pgc>
+        <vob>
+          <menu videoFormat="PAL" aspectRatio="1" rememberLastButton="-1">
+            <svg width="720" height="540">
+              <rect width="720" height="540" id="backgroundColour" style="fill:#000000;"/>
+              <video width="720" height="540" preserveAspectRatio="none" id="background" xlink:href="Rover\videos\Sports_f2_h2.mpg"/>
+              <defs id="defs">
+                <svg id="s_button01">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Feed</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+                <svg id="s_button02">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Pet</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+              </defs>
+              <g id="objects"/>
+              <g id="buttons">
+                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+              </g>
+            </svg>
+            <button id="button01" defSize="true">
+              <action>g4=g4+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+            <button id="button02" defSize="true">
+              <action>g5=g5+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+          </menu>
+        </vob>
+        <post>
+            g0=random(100); 
+            g1=random(100); 
+            if (g0 > 90) { g4=g4-1; } 
+            if (g1 > 90) { g5=g5-1; } 
+            jump vmgm menu 2;
+        </post>
+      </pgc>
+      <pgc>
+        <vob>
+          <menu videoFormat="PAL" aspectRatio="1" rememberLastButton="-1">
+            <svg width="720" height="540">
+              <rect width="720" height="540" id="backgroundColour" style="fill:#000000;"/>
+              <video width="720" height="540" preserveAspectRatio="none" id="background" xlink:href="Rover\videos\Sports_f2_h3.mpg"/>
+              <defs id="defs">
+                <svg id="s_button01">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Feed</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+                <svg id="s_button02">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Pet</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+              </defs>
+              <g id="objects"/>
+              <g id="buttons">
+                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+              </g>
+            </svg>
+            <button id="button01" defSize="true">
+              <action>g4=g4+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+            <button id="button02" defSize="true">
+              <action>g5=g5+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+          </menu>
+        </vob>
+        <post>
+            g0=random(100); 
+            g1=random(100); 
+            if (g0 > 90) { g4=g4-1; } 
+            if (g1 > 90) { g5=g5-1; } 
+            jump vmgm menu 2;
+        </post>
+      </pgc>
+      <pgc>
+        <vob>
+          <menu videoFormat="PAL" aspectRatio="1" rememberLastButton="-1">
+            <svg width="720" height="540">
+              <rect width="720" height="540" id="backgroundColour" style="fill:#000000;"/>
+              <video width="720" height="540" preserveAspectRatio="none" id="background" xlink:href="Rover\videos\Sports_f3_h1.mpg"/>
+              <defs id="defs">
+                <svg id="s_button01">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Feed</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+                <svg id="s_button02">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Pet</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+              </defs>
+              <g id="objects"/>
+              <g id="buttons">
+                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+              </g>
+            </svg>
+            <button id="button01" defSize="true">
+              <action>g4=g4+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+            <button id="button02" defSize="true">
+              <action>g5=g5+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+          </menu>
+        </vob>
+        <post>
+            g0=random(100); 
+            g1=random(100); 
+            if (g0 > 90) { g4=g4-1; } 
+            if (g1 > 90) { g5=g5-1; } 
+            jump vmgm menu 2;
+        </post>
+      </pgc>
+      <pgc>
+        <vob>
+          <menu videoFormat="PAL" aspectRatio="1" rememberLastButton="-1">
+            <svg width="720" height="540">
+              <rect width="720" height="540" id="backgroundColour" style="fill:#000000;"/>
+              <video width="720" height="540" preserveAspectRatio="none" id="background" xlink:href="Rover\videos\Sports_f3_h2.mpg"/>
+              <defs id="defs">
+                <svg id="s_button01">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Feed</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+                <svg id="s_button02">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Pet</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+              </defs>
+              <g id="objects"/>
+              <g id="buttons">
+                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+              </g>
+            </svg>
+            <button id="button01" defSize="true">
+              <action>g4=g4+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+            <button id="button02" defSize="true">
+              <action>g5=g5+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+          </menu>
+        </vob>
+        <post>
+            g0=random(100); 
+            g1=random(100); 
+            if (g0 > 90) { g4=g4-1; } 
+            if (g1 > 90) { g5=g5-1; } 
+            jump vmgm menu 2;
+        </post>
+      </pgc>
+      <pgc>
+        <vob>
+          <menu videoFormat="PAL" aspectRatio="1" rememberLastButton="-1">
+            <svg width="720" height="540">
+              <rect width="720" height="540" id="backgroundColour" style="fill:#000000;"/>
+              <video width="720" height="540" preserveAspectRatio="none" id="background" xlink:href="Rover\videos\Sports_f3_h3.mpg"/>
+              <defs id="defs">
+                <svg id="s_button01">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Feed</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+                <svg id="s_button02">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="gText" style="fill:#ffffff;">
+                    <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Pet</text>
+                  </g>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+              </defs>
+              <g id="objects"/>
+              <g id="buttons">
+                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+              </g>
+            </svg>
+            <button id="button01" defSize="true">
+              <action>g4=g4+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+            <button id="button02" defSize="true">
+              <action>g5=g5+1; jump vmgm menu 2;</action>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+          </menu>
+        </vob>
+        <post>
+            g0=random(100); 
+            g1=random(100); 
+            if (g0 > 90) { g4=g4-1; } 
+            if (g1 > 90) { g5=g5-1; } 
+            jump vmgm menu 2;
+        </post>
+      </pgc>

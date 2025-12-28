@@ -1,0 +1,1 @@
+ffmpeg -loop 1 -i GameOver.png -t 300 -target pal-dvd GameOver.mpg
