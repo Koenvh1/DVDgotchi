@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<dvdstyler format="4" isoFile="B:\Koen\PycharmProjects\DVDgotchi\dvdgotchi.iso" name="DVD" videoFormat="2" audioFormat="3" aspectRatio="1">
+<dvdstyler format="4" isoFile="B:\Koen\PycharmProjects\DVDgotchi\dvdgotchi.iso" name="DVDgotchi" videoFormat="2" audioFormat="3" aspectRatio="1">
   <!--************** VMGM **************-->
   <vmgm>
     <menus>
@@ -128,8 +128,8 @@
               </defs>
               <g id="objects"/>
               <g id="buttons">
-                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
-                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+                <use x="210" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="466" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
               </g>
             </svg>
             <button id="button01" defSize="true">
@@ -186,8 +186,8 @@
               </defs>
               <g id="objects"/>
               <g id="buttons">
-                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
-                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+                <use x="210" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="466" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
               </g>
             </svg>
             <button id="button01" defSize="true">
@@ -244,8 +244,8 @@
               </defs>
               <g id="objects"/>
               <g id="buttons">
-                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
-                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+                <use x="210" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="466" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
               </g>
             </svg>
             <button id="button01" defSize="true">
@@ -302,8 +302,8 @@
               </defs>
               <g id="objects"/>
               <g id="buttons">
-                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
-                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+                <use x="210" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="466" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
               </g>
             </svg>
             <button id="button01" defSize="true">
@@ -360,8 +360,8 @@
               </defs>
               <g id="objects"/>
               <g id="buttons">
-                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
-                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+                <use x="210" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="466" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
               </g>
             </svg>
             <button id="button01" defSize="true">
@@ -418,8 +418,8 @@
               </defs>
               <g id="objects"/>
               <g id="buttons">
-                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
-                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+                <use x="210" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="466" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
               </g>
             </svg>
             <button id="button01" defSize="true">
@@ -476,8 +476,8 @@
               </defs>
               <g id="objects"/>
               <g id="buttons">
-                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
-                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+                <use x="210" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="466" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
               </g>
             </svg>
             <button id="button01" defSize="true">
@@ -534,8 +534,8 @@
               </defs>
               <g id="objects"/>
               <g id="buttons">
-                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
-                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+                <use x="210" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="466" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
               </g>
             </svg>
             <button id="button01" defSize="true">
@@ -592,8 +592,8 @@
               </defs>
               <g id="objects"/>
               <g id="buttons">
-                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
-                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+                <use x="210" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="466" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
               </g>
             </svg>
             <button id="button01" defSize="true">
@@ -650,8 +650,8 @@
               </defs>
               <g id="objects"/>
               <g id="buttons">
-                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
-                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+                <use x="210" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="466" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
               </g>
             </svg>
             <button id="button01" defSize="true">
@@ -708,8 +708,8 @@
               </defs>
               <g id="objects"/>
               <g id="buttons">
-                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
-                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+                <use x="210" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="466" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
               </g>
             </svg>
             <button id="button01" defSize="true">
@@ -766,8 +766,8 @@
               </defs>
               <g id="objects"/>
               <g id="buttons">
-                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
-                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+                <use x="210" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="466" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
               </g>
             </svg>
             <button id="button01" defSize="true">
@@ -824,8 +824,8 @@
               </defs>
               <g id="objects"/>
               <g id="buttons">
-                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
-                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+                <use x="210" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="466" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
               </g>
             </svg>
             <button id="button01" defSize="true">
@@ -882,8 +882,8 @@
               </defs>
               <g id="objects"/>
               <g id="buttons">
-                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
-                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+                <use x="210" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="466" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
               </g>
             </svg>
             <button id="button01" defSize="true">
@@ -940,8 +940,8 @@
               </defs>
               <g id="objects"/>
               <g id="buttons">
-                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
-                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+                <use x="210" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="466" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
               </g>
             </svg>
             <button id="button01" defSize="true">
@@ -998,8 +998,8 @@
               </defs>
               <g id="objects"/>
               <g id="buttons">
-                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
-                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+                <use x="210" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="466" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
               </g>
             </svg>
             <button id="button01" defSize="true">
@@ -1056,8 +1056,8 @@
               </defs>
               <g id="objects"/>
               <g id="buttons">
-                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
-                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+                <use x="210" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="466" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
               </g>
             </svg>
             <button id="button01" defSize="true">
@@ -1114,8 +1114,8 @@
               </defs>
               <g id="objects"/>
               <g id="buttons">
-                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
-                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+                <use x="210" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="466" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
               </g>
             </svg>
             <button id="button01" defSize="true">
@@ -1172,8 +1172,8 @@
               </defs>
               <g id="objects"/>
               <g id="buttons">
-                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
-                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+                <use x="210" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="466" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
               </g>
             </svg>
             <button id="button01" defSize="true">
@@ -1230,8 +1230,8 @@
               </defs>
               <g id="objects"/>
               <g id="buttons">
-                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
-                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+                <use x="210" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="466" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
               </g>
             </svg>
             <button id="button01" defSize="true">
@@ -1288,8 +1288,8 @@
               </defs>
               <g id="objects"/>
               <g id="buttons">
-                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
-                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+                <use x="210" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="466" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
               </g>
             </svg>
             <button id="button01" defSize="true">
@@ -1346,8 +1346,8 @@
               </defs>
               <g id="objects"/>
               <g id="buttons">
-                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
-                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+                <use x="210" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="466" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
               </g>
             </svg>
             <button id="button01" defSize="true">
@@ -1404,8 +1404,8 @@
               </defs>
               <g id="objects"/>
               <g id="buttons">
-                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
-                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+                <use x="210" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="466" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
               </g>
             </svg>
             <button id="button01" defSize="true">
@@ -1462,8 +1462,8 @@
               </defs>
               <g id="objects"/>
               <g id="buttons">
-                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
-                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+                <use x="210" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="466" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
               </g>
             </svg>
             <button id="button01" defSize="true">
@@ -1520,8 +1520,8 @@
               </defs>
               <g id="objects"/>
               <g id="buttons">
-                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
-                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+                <use x="210" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="466" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
               </g>
             </svg>
             <button id="button01" defSize="true">
@@ -1578,8 +1578,8 @@
               </defs>
               <g id="objects"/>
               <g id="buttons">
-                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
-                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+                <use x="210" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="466" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
               </g>
             </svg>
             <button id="button01" defSize="true">
@@ -1636,8 +1636,8 @@
               </defs>
               <g id="objects"/>
               <g id="buttons">
-                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
-                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+                <use x="210" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="466" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
               </g>
             </svg>
             <button id="button01" defSize="true">
@@ -1694,8 +1694,8 @@
               </defs>
               <g id="objects"/>
               <g id="buttons">
-                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
-                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+                <use x="210" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="466" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
               </g>
             </svg>
             <button id="button01" defSize="true">
@@ -1752,8 +1752,8 @@
               </defs>
               <g id="objects"/>
               <g id="buttons">
-                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
-                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+                <use x="210" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="466" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
               </g>
             </svg>
             <button id="button01" defSize="true">
@@ -1810,8 +1810,8 @@
               </defs>
               <g id="objects"/>
               <g id="buttons">
-                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
-                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+                <use x="210" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="466" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
               </g>
             </svg>
             <button id="button01" defSize="true">
@@ -1868,8 +1868,8 @@
               </defs>
               <g id="objects"/>
               <g id="buttons">
-                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
-                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+                <use x="210" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="466" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
               </g>
             </svg>
             <button id="button01" defSize="true">
@@ -1926,8 +1926,8 @@
               </defs>
               <g id="objects"/>
               <g id="buttons">
-                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
-                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+                <use x="210" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="466" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
               </g>
             </svg>
             <button id="button01" defSize="true">
@@ -1984,8 +1984,8 @@
               </defs>
               <g id="objects"/>
               <g id="buttons">
-                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
-                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+                <use x="210" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="466" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
               </g>
             </svg>
             <button id="button01" defSize="true">
@@ -2042,8 +2042,8 @@
               </defs>
               <g id="objects"/>
               <g id="buttons">
-                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
-                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+                <use x="210" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="466" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
               </g>
             </svg>
             <button id="button01" defSize="true">
@@ -2100,8 +2100,8 @@
               </defs>
               <g id="objects"/>
               <g id="buttons">
-                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
-                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+                <use x="210" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="466" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
               </g>
             </svg>
             <button id="button01" defSize="true">
@@ -2158,8 +2158,8 @@
               </defs>
               <g id="objects"/>
               <g id="buttons">
-                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
-                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+                <use x="210" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="466" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
               </g>
             </svg>
             <button id="button01" defSize="true">
@@ -2216,8 +2216,8 @@
               </defs>
               <g id="objects"/>
               <g id="buttons">
-                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
-                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+                <use x="210" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="466" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
               </g>
             </svg>
             <button id="button01" defSize="true">
@@ -2274,8 +2274,8 @@
               </defs>
               <g id="objects"/>
               <g id="buttons">
-                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
-                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+                <use x="210" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="466" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
               </g>
             </svg>
             <button id="button01" defSize="true">
@@ -2332,8 +2332,8 @@
               </defs>
               <g id="objects"/>
               <g id="buttons">
-                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
-                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+                <use x="210" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="466" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
               </g>
             </svg>
             <button id="button01" defSize="true">
@@ -2390,8 +2390,8 @@
               </defs>
               <g id="objects"/>
               <g id="buttons">
-                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
-                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+                <use x="210" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="466" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
               </g>
             </svg>
             <button id="button01" defSize="true">
@@ -2448,8 +2448,8 @@
               </defs>
               <g id="objects"/>
               <g id="buttons">
-                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
-                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+                <use x="210" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="466" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
               </g>
             </svg>
             <button id="button01" defSize="true">
@@ -2506,8 +2506,8 @@
               </defs>
               <g id="objects"/>
               <g id="buttons">
-                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
-                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+                <use x="210" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="466" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
               </g>
             </svg>
             <button id="button01" defSize="true">
@@ -2564,8 +2564,8 @@
               </defs>
               <g id="objects"/>
               <g id="buttons">
-                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
-                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+                <use x="210" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="466" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
               </g>
             </svg>
             <button id="button01" defSize="true">
@@ -2622,8 +2622,8 @@
               </defs>
               <g id="objects"/>
               <g id="buttons">
-                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
-                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+                <use x="210" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="466" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
               </g>
             </svg>
             <button id="button01" defSize="true">
@@ -2680,8 +2680,8 @@
               </defs>
               <g id="objects"/>
               <g id="buttons">
-                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
-                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+                <use x="210" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="466" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
               </g>
             </svg>
             <button id="button01" defSize="true">

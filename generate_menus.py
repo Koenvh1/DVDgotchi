@@ -83,8 +83,8 @@ for idx, vid in enumerate(os.listdir("Rover\\videos")):
               </defs>
               <g id="objects"/>
               <g id="buttons">
-                <use x="216" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
-                <use x="424" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
+                <use x="210" y="72" width="63" height="25" id="button01" xlink:href="#s_button01"/>
+                <use x="466" y="72" width="44" height="25" id="button02" xlink:href="#s_button02"/>
               </g>
             </svg>
             <button id="button01" defSize="true">
